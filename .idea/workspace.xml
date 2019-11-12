@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2123304a-eead-47c7-9684-a33c14e884a5" name="Default" comment="" />
+    <list default="true" id="2123304a-eead-47c7-9684-a33c14e884a5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/easy/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hard/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hard/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hard/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/medium/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/KCKproject$main.coverage" NAME="main Coverage Results" MODIFIED="1573508967306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KCKproject$main.coverage" NAME="main Coverage Results" MODIFIED="1573583493496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/KCKproject$test.coverage" NAME="test Coverage Results" MODIFIED="1573394607488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -18,8 +39,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
+            <state relative-caret-position="425">
+              <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -49,6 +70,9 @@
     <findStrings>
       <find>io</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,16 +201,16 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.36875665" side_tool="true" visible="true" weight="0.46145833" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.3711201" side_tool="true" weight="0.46145833" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.120085016" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21253985" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06822917" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="4" sideWeight="0.63124335" visible="true" weight="0.46145833" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.6288799" visible="true" weight="0.46145833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
@@ -217,6 +241,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="198" column="37" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/kckzad/Untitled (8).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="39" />
+          <folding>
+            <element signature="e#136#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3621">
+          <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/kckzad/Untitled (8).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="39" />
+          <folding>
+            <element signature="e#136#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3621">
@@ -551,17 +609,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main - Copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" lean-forward="true" selection-end-line="249" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main - Copy.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
+        <state relative-caret-position="425">
+          <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
         </state>
       </provider>
     </entry>

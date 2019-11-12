@@ -163,10 +163,13 @@ def transformImages(images):
         #threshTemp = thresh(grayTemp, 127)
         #grayTemp = bgr2gray(images[i])
         contrastTemp = contrast(grayTemp, 48.5)
-        gammaTemp = gamma(contrastTemp, 1.5)
-        blurTemp = blur(gammaTemp, 10, 10)
+        gammaTemp = gamma(contrastTemp, 0.55)
+        blurTemp = blur(gammaTemp, 15, 15)
         threshTemp = adaptiveThresh(blurTemp)
         erosionTemp = erosion(threshTemp, 4)
+        openingTemp = opening(erosionTemp)
+
+
 
         #closingTemp = opening(threshTemp)
         #gradientTemp = gradient(closingTemp)
@@ -180,17 +183,21 @@ def transformImages(images):
         #blurTemp = blur(threshTemp, 5, 5)
 
 
-        contoursTemp = contours(erosionTemp)
+        contoursTemp = contours(openingTemp)
+        contoursTemp3 = contoursTemp
         contoursTemp2 = []
-        ''''contoursTemp = [contour for contour in contoursTemp if(cv.contourArea(contour) > 30000 and cv.contourArea(contour) < 300000 and len(cv.approxPolyDP(contour, 0.025 * cv.arcLength(contour, True), True))
+
+        contoursTemp = [contour for contour in contoursTemp if(cv.contourArea(contour) > 20000 and cv.contourArea(contour) < 250000 and len(cv.approxPolyDP(contour, 0.025 * cv.arcLength(contour, True), True))
  == 4)]
         contoursTemp2 = []
 
-        if(len(contoursTemp) == 0): contoursTemp = contours(erosionTemp)
+        if(len(contoursTemp) == 0): contoursTemp = contours(openingTemp)
+
         areas = []
         for contour in contoursTemp:
             areas.append(int(cv.contourArea(contour)))
 
+        if(len(areas) == 0): continue
         medianArea = int(np.median(areas))
 
         tempAreas = sorted(areas)
@@ -206,9 +213,10 @@ def transformImages(images):
         #len(v.approxPolyDP(contour, 0.025 * cv.arcLength(contour, True), True))
 
 
-        for contour in contoursTemp:
-            if(cv.matchShapes(contour, medianContour, 1, 0.0) < 0.7):
-                contoursTemp2.append(contour)'''
+        for contour in contoursTemp3:
+            #print(cv.matchShapes(contour, medianContour, 1, 0.0))
+            if(cv.matchShapes(contour, medianContour, 1, 0.0) < 0.3 and cv.contourArea(contour) > cv.contourArea(medianContour)*0.5):
+                contoursTemp2.append(contour)
 
         '''for contour in contoursTemp:
             peri = cv.arcLength(contour, True)
@@ -218,13 +226,13 @@ def transformImages(images):
                 #contoursTemp2.append(approx)
 
             #contoursTemp2.append(hull(contour))
+        '''
+
+        cv.drawContours(images[i], contoursTemp2, -1, (0, 255, 0), 20)
+        #closingTemp = opening(threshTemp)
 
 
-        cv.drawContours(images[i], contoursTemp, -1, (0, 255, 0), 20)'''
-        #closingTemp = opening(threshTemp)'''
-
-
-        images[i] = erosionTemp
+        #images[i] = openingTemp
         del grayTemp
         #del blurTemp
 
@@ -240,8 +248,8 @@ transformImages(medium)
 transformImages(hard)
 
 showImages(easy, 12, 4, 3)
-showImages(medium, 20, 4, 5)
-showImages(hard, 10, 2, 5)
+showImages(medium, 15, 5, 3)
+showImages(hard, 16, 4, 4)
 
 del easy
 del medium
