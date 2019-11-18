@@ -35,8 +35,9 @@ def showImages(images, number, rows, columns):
     plt.figure(figsize=(20, 20))
     for i in range(1, number + 1):
         plt.subplot(rows, columns, i)
-        plt.imshow(images[i - 1], cmap = "gray") #bgr
-        #plt.imshow(images[i - 1][:, :, ::-1]) #rgb
+        #images[i-1] = images[i - 1][:, :, ::-1] #uncomment to get rgb
+        plt.imshow(images[i - 1])
+        #cv.imwrite(str(i) + ".jpg", images[i-1]) #uncomment this line to write image to file
     plt.show()
     plt.close()
     plt.clf()
@@ -55,6 +56,7 @@ def showCropped(cropped, original):
 def transformImages(images):
     for i in range(len(images)):
         print("Start of tranformations...")
+
         grayTemp = t.bgr2gray(images[i])
         contrastTemp = t.contrast(grayTemp, 48.5)
         gammaTemp = t.gamma(contrastTemp, 0.55)
@@ -67,12 +69,11 @@ def transformImages(images):
         contoursAll = contoursTemp
         contoursFinal = []
 
+
         #delete too small and too big contours and take these with four corners
         contoursTemp = [contour for contour in contoursTemp if(cv.contourArea(contour) > t.MINIMUM_SIZE_CONTOUR and cv.contourArea(contour) < t.MAXIMUM_SIZE_CONTOUR and len(cv.approxPolyDP(contour, 0.025 * cv.arcLength(contour, True), True))
  == 4)]
 
-        #if there are not contours that fit in above conditions - find again
-        #if(len(contoursTemp) == 0): contoursTemp = t.contours(openingTemp)
 
         #create list with areas of contours
         areas = []
@@ -113,25 +114,21 @@ def transformImages(images):
         #loop through all contours and create new image with them
         for points in croppedContours:
             pts1 = np.float32([[points[0][3]], [points[0][2]], [points[0][0]], [points[0][1]]])
-            pts2 = np.float32([[0, 0], [points[0][-1][0], 0], [0, points[0][-1][1]], [points[0][-1][0], points[0][-1][1]]])
+            pts2 = np.float32([[0, 0], [points[0][-2][0], 0], [0, points[0][-2][1]], [points[0][-2][0], points[0][-2][1]]])
             M = cv.getPerspectiveTransform(pts1, pts2)
-            croppedImage = cv.warpPerspective(images[i], M, (int(points[0][-1][0]), int(points[0][-1][1])))
+            croppedImage = cv.warpPerspective(images[i], M, (int(points[0][-2][0]), int(points[0][-2][1])))
 
             #uncomment this line if you want to see cropped and original image
             #showCropped(croppedImage, images[i])
-            print("Before hu.readCard")
             cardAttributes = hu.readCard(croppedImage)
-            print(cardAttributes)
-            detectedContours.append([cardAttributes[0] + " " + cardAttributes[1] + " " + cardAttributes[2] + " " + str(cardAttributes[3]), points[0][3]])
+            detectedContours.append([cardAttributes[0] + " " + cardAttributes[1] + " " + cardAttributes[2] + " " + str(cardAttributes[3]), points[0][-1]])
 
-            #TODO implement detection function
-            #detectedContours.append(result from detection function)
 
         cv.drawContours(images[i], contoursFinal, -1, (0, 255, 0), 20)
 
         #printing detected card symbols
         for k in range(len(detectedContours)):
-            cv.putText(images[i], detectedContours[k][0], (detectedContours[k][1][0], detectedContours[k][1][1] - 10), cv.FONT_HERSHEY_SIMPLEX, 2.0, (255, 0, 0), 5)
+            cv.putText(images[i], detectedContours[k][0], (detectedContours[k][1][0], detectedContours[k][1][1] - 10), cv.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 5)
 
         print("Tranforming photo ended...", i)
         del grayTemp
@@ -152,9 +149,9 @@ transformImages(easy)
 #transformImages(hard)
 
 print("Showing images...")
-showImages(easy, 4, 2, 2)
-#showImages(medium, 15, 5, 3)
-#showImages(hard, 16, 4, 4)
+showImages(easy, 10, 2, 5)
+#showImages(medium, 10, 2, 5)
+#showImages(hard, 10, 2, 5)
 
 
 del easy

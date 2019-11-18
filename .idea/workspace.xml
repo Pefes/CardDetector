@@ -3,15 +3,53 @@
   <component name="ChangeListManager">
     <list default="true" id="2123304a-eead-47c7-9684-a33c14e884a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/easy/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HuMoments.py" beforeDir="false" afterPath="$PROJECT_DIR$/HuMoments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvMatchingTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/cvMatchingTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/easy/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/easy/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/easy/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/easy/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/20191107_120658.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/20191107_120702.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/20191107_120723.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/awer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/cvb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/gfd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/jhg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/nbv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/sdf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/tr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/tyr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hard/wer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medium/5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tranformations.py" beforeDir="false" afterPath="$PROJECT_DIR$/tranformations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +59,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/KCKproject$main.coverage" NAME="main Coverage Results" MODIFIED="1573861050563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KCKproject$main.coverage" NAME="main Coverage Results" MODIFIED="1574092198493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/KCKproject$test.coverage" NAME="test Coverage Results" MODIFIED="1573394607488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -29,8 +67,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="2278">
+              <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -52,6 +90,7 @@
       <find>io</find>
       <find>print</find>
       <find>while</find>
+      <find>show</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,10 +100,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/tranformations.py" />
-        <option value="$PROJECT_DIR$/cvMatchingTemplate.py" />
-        <option value="$PROJECT_DIR$/HuMoments.py" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/cvMatchingTemplate.py" />
+        <option value="$PROJECT_DIR$/tranformations.py" />
+        <option value="$PROJECT_DIR$/HuMoments.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -79,7 +118,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="390" />
+    <option name="y" value="-19" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -88,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,7 +140,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,16 +229,16 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.38326585" side_tool="true" weight="0.33072916" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.38575983" side_tool="true" weight="0.40989584" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943678" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21253985" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21253985" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1265625" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.61673415" visible="true" weight="0.42447916" />
+      <window_info active="true" anchor="right" id="SciView" order="4" sideWeight="0.61424017" visible="true" weight="0.40989584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
@@ -207,9 +247,9 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" weight="0.32943678" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32943678" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,16 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tranformations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SetDetector/pawel/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -557,27 +587,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cvMatchingTemplate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HuMoments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="250" column="10" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="10" />
+          <caret line="432" column="20" lean-forward="true" selection-start-line="432" selection-start-column="20" selection-end-line="432" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cvMatchingTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tranformations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="115" selection-start-line="114" selection-start-column="115" selection-end-line="114" selection-end-column="115" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="2278">
+          <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

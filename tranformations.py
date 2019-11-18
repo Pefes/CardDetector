@@ -112,5 +112,5 @@ def crop(contour):
     box = np.int0(box)
 
     #if image is rotated send coordinates reversed
-    if(distance(box[0], box[1]) < distance(box[0], box[3])): return [box[3], box[0], box[1], box[2], rect[1]]
-    return [box[0], box[1], box[2], box[3], rect[1][::-1]]
+    if(distance(box[0], box[1]) < distance(box[0], box[3])): return [box[3], box[0], box[1], box[2], rect[1], box[1]]
+    return [box[0], box[1], box[2], box[3], rect[1][::-1], box[1]]

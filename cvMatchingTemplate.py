@@ -12,13 +12,13 @@ class ShapeDetector:
         peri = cv2.arcLength(c, True)
         approx = cv2.approxPolyDP(c, 0.005 * peri, True)
         # if the shape is a triangle, it will have 3 vertices
-        print(len(approx))
+        #print(len(approx))
         if len(approx) < 11:
             shape = "diamond"
 
         # if the shape has 4 vertices, it is either a square or
         # a rectangle
-        elif len(approx) < 18:
+        elif len(approx) < 17:
            shape = "oval"
 
         else:
@@ -63,7 +63,7 @@ def getShape(image):
         #cY = int((M["m01"] / M["m00"]) * ratio)
         shape = sd.detect(c)
         return shape
-        print("new:" + shape)
+        #print("new:" + shape)
         # multiply the contour (x, y)-coordinates by the resize ratio,
         # then draw the contours and the name of the shape on the image
         c = c.astype("float")
@@ -74,5 +74,5 @@ def getShape(image):
                     0.5, (255, 0, 0), 2)
 
         # show the output image
-        cv2.imshow("Image", image)
-        cv2.waitKey(0)
+        #cv2.imshow("Image", image)
+        #cv2.waitKey(0)
